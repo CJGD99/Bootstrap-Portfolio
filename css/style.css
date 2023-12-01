@@ -3,6 +3,28 @@
 /* NAVBAR STYLES */
 
 /* HERO STYLES */
+.hero {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.hero-image {
+    max-width: 25%;
+    height: auto;
+    background-repeat: none;
+}
+
+.hero-title {
+    font-size: 3vw;
+}
+
+.hero-para {
+    font-size: 1.5vw;
+}
 
 /* WORK SECTION STYLES */
 
