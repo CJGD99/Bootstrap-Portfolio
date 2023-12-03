@@ -9,8 +9,16 @@
 
 /* MISC STYLES */
 .section-heading {
-    margin: 1vh 1vw;
+    margin: 5vh 1vw;
     text-decoration: underline;
+}
+
+.main-section {
+    margin: 0 9vw;
+}
+
+li {
+    list-style-type: none;
 }
 
 /* NAVBAR STYLES */
@@ -40,17 +48,31 @@
 }
 
 /* WORK SECTION STYLES */
-.work-grid {
-    margin: 0 9vw;
-}
 
 
 /* SKILLS SECTION STYLES */
+.list-group {
+    height: 90vh;
+}
+
 .list-group-item {
     padding: 5vh;
 }
 
 /* ABOUT SECTION STYLES */
+
+.about-heading {
+    padding: 0 5vw 3vh;
+}
+
+.about-contact {
+    height: 90vh;
+}
+
+.about-img {
+    margin-bottom: 5vh;
+    border-radius: 50%;
+}
 
 /* CONTACT SECTION STYLES */
 
