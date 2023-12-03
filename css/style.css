@@ -1,4 +1,17 @@
 /* COLOUR PALETTE */
+:root {
+    --light: #F3F6F4;
+    --grey: #878484;
+    --darkGrey: #2B2727;
+    --textCol: #141212;
+    --accent: #6015EB;
+  }
+
+/* MISC STYLES */
+.section-heading {
+    margin: 1vh 1vw;
+    text-decoration: underline;
+}
 
 /* NAVBAR STYLES */
 
@@ -27,8 +40,14 @@
 }
 
 /* WORK SECTION STYLES */
-.work {
+.work-grid {
     margin: 0 9vw;
+}
+
+
+/* SKILLS SECTION STYLES */
+.list-group-item {
+    padding: 5vh;
 }
 
 /* ABOUT SECTION STYLES */
