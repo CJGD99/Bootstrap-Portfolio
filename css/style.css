@@ -6,10 +6,10 @@
 .hero {
     display: flex;
     width: 100%;
-    height: auto;
+    height: 100vh;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
 .hero-image {
@@ -27,12 +27,8 @@
 }
 
 /* WORK SECTION STYLES */
-.carousel {
-    margin: 10vw;
-    width: 65vw;
-    height: auto;
-    position: relative;
-    left: 7.5vw;
+.work {
+    margin: 0 9vw;
 }
 
 /* ABOUT SECTION STYLES */
