@@ -22,6 +22,28 @@ li {
 }
 
 /* NAVBAR STYLES */
+.navbar {
+    background-color: var(--darkGrey) !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end !important;
+}
+
+.nav-link {
+    color: var(--light);
+    margin: auto 1vw;
+    font-family: montserrat, sans-serif;
+}
+
+.nav-link:hover {
+    background-color: var(--light);
+}
+
+.navbar-title {
+    color: var(--light);
+    font-family: neuton, sans-serif;
+}
 
 /* HERO STYLES */
 .hero {
