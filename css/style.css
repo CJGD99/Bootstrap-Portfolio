@@ -57,24 +57,44 @@ body {
 .hero {
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     justify-content: space-evenly;
     align-items: center;
-    /* margin-top: 5%; */
+    margin-bottom: 10vh;
 }
 
 .hero-image {
     max-width: 25%;
     height: auto;
     background-repeat: none;
+    padding: 1vh;
+}
+
+.hero-text-container {
 }
 
 .hero-title {
-    font-size: 3vw;
+    font-size: 4vw;
+    color: var(--textCol);
+    font-family: montserrat, sans-serif;
+    margin-bottom: 5vh;
+    padding-bottom: 4vh;
+    border-bottom: 1px solid var(--accent);
 }
 
 .hero-para {
-    font-size: 1.5vw;
+    font-size: 2vw;
+    font-family: neuton, sans-serif;
+    background-color: var(--darkGrey);
+    color: var(--light);
+    padding: 2vw;
+    line-height: 200%;
+    text-align: right;
+}
+
+.hero-link {
+    color: var(--light);
+    padding-left: 1vw;
 }
 
 /* WORK SECTION STYLES */
