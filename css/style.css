@@ -21,9 +21,14 @@ li {
     list-style-type: none;
 }
 
+body {
+    background-color: var(--light);
+}
+
 /* NAVBAR STYLES */
 .navbar {
-    background-color: var(--darkGrey) !important;
+    background-color: var(--light) !important;
+    padding: 0;
 }
 
 .navbar-collapse {
@@ -31,18 +36,21 @@ li {
 }
 
 .nav-link {
-    color: var(--light);
+    color: var(--textCol);
     margin: auto 1vw;
     font-family: montserrat, sans-serif;
 }
 
 .nav-link:hover {
-    background-color: var(--light);
+    color: var(--grey);
 }
 
 .navbar-title {
     color: var(--light);
     font-family: neuton, sans-serif;
+    background-color: var(--darkGrey);
+    margin-bottom: 0;
+    padding: 1.25vw;
 }
 
 /* HERO STYLES */
