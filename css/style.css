@@ -10,7 +10,12 @@
 /* MISC STYLES */
 .section-heading {
     margin: 5vh 1vw;
-    text-decoration: underline;
+    background-color: var(--darkGrey);
+    color: var(--light);
+    font-family: neuton, sans-serif;
+    font-size: 3vw;
+    width: 10vw;
+    padding: 8px;
 }
 
 .main-section {
@@ -70,9 +75,6 @@ body {
     padding: 1vh;
 }
 
-.hero-text-container {
-}
-
 .hero-title {
     font-size: 4vw;
     color: var(--textCol);
@@ -85,7 +87,7 @@ body {
 .hero-para {
     font-size: 2vw;
     font-family: neuton, sans-serif;
-    background-color: var(--darkGrey);
+    background-color: var(--grey);
     color: var(--light);
     padding: 2vw;
     line-height: 200%;
@@ -98,7 +100,20 @@ body {
 }
 
 /* WORK SECTION STYLES */
+ .work-links {
+    color: var(--light);
+    text-decoration: none;
+ }
 
+ .work-links:hover {
+    color: var(--accent);
+ }
+
+.work-cards {
+    background-color: var(--grey);
+    color: var(--light);
+    font-family: montserrat, sans-serif;
+}
 
 /* SKILLS SECTION STYLES */
 .list-group {
