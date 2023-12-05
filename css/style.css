@@ -122,6 +122,32 @@ body {
 
 .list-group-item {
     padding: 5vh;
+    background-color: var(--grey);
+}
+
+.skills-text {
+    font-family: montserrat, sans-serif;
+    font-size: 1.25vw;
+    color: var(--light);
+}
+
+.skill-icons {
+    fill: var(--accent);
+}
+
+.skills-card {
+    border: none;
+    border-radius: 0%;
+    text-align: center;
+    background-color: var(--grey);
+    margin-bottom: 10px;
+    font-family: montserrat, sans-serif;
+    font-size: 2vw;
+    color: var(--light);
+}
+
+.list-group {
+    text-align: center;
 }
 
 /* ABOUT/CONTACT SECTION STYLES */
